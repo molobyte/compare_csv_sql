@@ -1,0 +1,6 @@
+ID_Venda,Data_Venda,Produto,Quantidade,Preco_Total
+6,2023-03-01,Produto F,8,80.00
+7,2023-03-05,Produto G,12,120.00
+8,2023-03-10,Produto H,3,30.00
+9,2023-03-15,Produto I,15,150.00
+10,2023-03-20,Produto J,4,40.00
