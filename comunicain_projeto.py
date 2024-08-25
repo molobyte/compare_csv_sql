@@ -19,4 +19,6 @@ diferenca = vendas_portal[~vendas_portal['ID_Venda'].isin(tabela_db['ID_Venda'])
 print("Inconsistências encontradas no banco de dados:")
 print(diferenca)
 
+diferenca.to_csv('diferencas.csv', index=False)
+
 conexao.close()
