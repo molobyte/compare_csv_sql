@@ -5,4 +5,5 @@
   <li> <strong>comunicain_projeto.py</strong> - codigo fonte em python para comparar os arquivos csv com o banco de dados</li>
 <li> <strong>periodo_1.csv</strong> - arquivo CSV de vendas do periodo de 15 de janeiro até 15 de fevereiro de 2023</li>
 <li> <strong>periodo_2.csv</strong> - arquivo CSV de vendas do periodo de 1 de março até 20 de março de 2023</li>
+<li> <strong>diferencas.csv</strong> - arquivo CSV gerado pelo script, com registros que estão faltando no banco de dados</li>
 </ul>
