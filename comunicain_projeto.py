@@ -21,4 +21,13 @@ print(diferenca)
 
 diferenca.to_csv('diferencas.csv', index=False)
 
+# Gerar uma query para caso seja necessario o INSERT das inconsistencias 
+for index, row in diferenca.iterrows():
+    colunas = ', '.join(row.index)
+    valores = ', '.join([f"'{x}'" if isinstance(x, str) else str(x) for x in row.values])
+    query = f"INSERT INTO Vendas ({colunas}) VALUES ({valores});"
+    
+    # Exibir a query SQL gerada
+    print(query)
+
 conexao.close()
